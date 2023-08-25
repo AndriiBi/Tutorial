@@ -137,7 +137,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .prices-container {
+  .container {
     max-width: 736px;
   }
 
@@ -157,7 +157,7 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
-  .prices-container {
+  .container {
     max-width: 1352px;
   }
 
@@ -167,44 +167,13 @@ img {
   }
 }
 
-/* PRICES_NEW */
 
-.prices-list-new {
-  gap: 60px;
-  display: flex;
-  flex-direction: column;
-}
 
-.prices-list-item-new {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 42px;
-  max-width: 343px;
-  position: relative;
-}
+/* CLIENTS REVIEWS */
 
-.prices-list-item-new:first-child::before {
-  box-sizing: border-box;
-  content: " ";
-  width: 343px;
-  height: 1px;
-  background-color: #0a224a;
-  position: absolute;
-  top: -30px;
-}
 
-.prices-list-item-new::after {
-  box-sizing: border-box;
-  content: " ";
-  width: 343px;
-  height: 1px;
-  background-color: #0a224a;
-  position: absolute;
-  bottom: -30px;
-}
 
-.clients-reviews {
+/* .clients-reviews {
   padding-top: 36px;
   padding-bottom: 36px;
 }
@@ -215,16 +184,22 @@ img {
   font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
-  margin: 0 auto;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .reviews-list-item {
+  border-radius: 8px;
+  background: #FFF;
+  border: 1px solid red;
+  padding: 24px;
 }
+
 .reviews-image {
   width: 48px;
   height: 48px;
 }
+
 .reviews-name {
   color: #0a224a;
   font-size: 18px;
@@ -245,4 +220,4 @@ img {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.42;
-}
+} */
